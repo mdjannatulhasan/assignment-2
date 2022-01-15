@@ -101,6 +101,14 @@ header img {
     font-weight: 400;
     margin: 10px 0;
 }
+.rating {
+    font-size: 14px;
+}
 .stars i {
     color: #fb8200 !important;
+}
+.rating .num {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
 }
