@@ -16,6 +16,22 @@
     .sec-title {
         font-size: 16px;
     }
+    .shift {
+        max-width: 250px;
+    }
+    .item-box .price,
+    .box-title {
+        font-weight: 700;
+    }
+    .get-in-touch p {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .get-in-touch i {
+        font-size: 20px !important;
+        height: 40px !important;
+        width: 40px !important;
+    }
 }
 @media only screen and (max-width: 500px) {
     body * {
@@ -36,5 +52,11 @@
     }
     .img-container {
         order: 1;
+    }
+    .item-box * {
+        text-align: left;
+    }
+    footer p {
+        font-size: 12px;
     }
 }

@@ -28,6 +28,13 @@
     border-radius: 100px;
     padding: 10px 24px;
     display: inline-block;
+    border: none;
+    transition: all 250ms ease-in;
+    cursor: pointer;
+}
+.btn-rounded:hover {
+    transform: scale(1.15);
+    transition: all 250ms ease-in;
 }
 .bg-primary {
     background-color: #e02c6d;
@@ -56,6 +63,9 @@ header {
 }
 header img {
     width: 100%;
+}
+header a i {
+    color: #ffffff;
 }
 /****************************************************\
                 company logos Styles 
@@ -95,11 +105,13 @@ header img {
     font-weight: 500;
     font-size: 28px;
     line-height: 40px;
+    margin-top: 20px;
 }
 .item-box .price {
     font-size: 24px;
     font-weight: 400;
     margin: 10px 0;
+    font-family: "Inter", sans-serif;
 }
 .rating {
     font-size: 14px;
@@ -111,4 +123,133 @@ header img {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     margin-left: 10px;
+    color: #5e6366;
+}
+.item-box p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #787885;
+}
+.shift {
+    margin: 10px 0 5px;
+    max-width: 130px;
+}
+.link {
+    margin-top: 20px;
+    text-align: right;
+}
+.single-link {
+    color: #e02c6d;
+    text-decoration: none;
+}
+.single-link i {
+    color: #e02c6d;
+}
+.single-link:hover {
+    color: #52001e;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(180deg, #ffad5a, #e02c6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.get-in-touch ul {
+    list-style-type: none;
+    padding: 0;
+}
+.get-in-touch ul li,
+.get-in-touch ul li a {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #3e3e3e;
+    text-decoration: none;
+}
+.get-in-touch h2 {
+    padding-bottom: 0px;
+}
+.form-container h3 {
+    margin-bottom: 10px;
+}
+.get-in-touch p {
+    font-size: 20px;
+}
+.get-in-touch i {
+    color: #e02c6d;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.get-in-touch li a:hover {
+    color: #e02c6d;
+}
+.get-in-touch .social-icons {
+    padding-top: 20px;
+}
+.get-in-touch .social-icons a {
+    text-decoration: none;
+}
+.get-in-touch .social-icons i {
+    font-size: 25px;
+    height: 50px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    width: 50px;
+    border: 4px solid #e02c6d;
+    border-radius: 100px;
+}
+.get-in-touch .social-icons a:hover i {
+    background: #e02c6d;
+    color: #ffffff;
+    border-color: #ffbfbf;
+}
+.form-container {
+    margin-left: 5%;
+}
+.input-container {
+    margin-bottom: 25px;
+}
+.input-container input,
+.input-container textarea {
+    width: 90%;
+    border: 1px solid #979797f2;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input.btn-primary {
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+::placeholder {
+    color: #adadad;
+    font-family: "Poppins";
+}
+
+footer {
+    margin-top: 40px;
+    background: #0a0826;
+    text-align: center;
+    padding: 46px 0 35px;
+}
+footer h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Poppins", cursive;
+    font-weight: 700;
+}
+.red-text {
+    color: #ff5959;
+}
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #d9dbe1;
+}
+footer .social-icons a i {
+    color: #ffffff;
+    margin: 20px 10px;
 }
