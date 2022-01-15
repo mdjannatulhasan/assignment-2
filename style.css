@@ -1,0 +1,33 @@
+/****************************************************\
+                    General Styles 
+\****************************************************/
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    paadding: 0;
+    color: #3a3a3a;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    display: grid;
+    grid-gap: 20px;
+}
+.row.col-6 {
+    grid-template-columns: repeat(2, 1fr);
+}
+.row.col-4 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/****************************************************\
+                    Header Styles 
+\****************************************************/
+.web-name {
+    font-size: 24px;
+}
+.main-title {
+    font-size: 52px;
+}
