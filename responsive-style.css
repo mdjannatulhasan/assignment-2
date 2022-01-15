@@ -1,7 +1,40 @@
 @media only screen and (max-width: 769px) {
-    /****************************************************\
-                        Header Styles 
-    \****************************************************/
+    .row {
+        grid-template-columns: 1fr 1fr !important;
+        grid-row-gap: 30px !important;
+    }
     .main-title {
+        font-size: 28px;
+    }
+    header img {
+        max-width: 400px;
+    }
+    .logos img {
+        max-width: 50px;
+        margin: 10px 10px;
+    }
+    .sec-title {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    body * {
+        text-align: center;
+    }
+
+    header p {
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .row {
+        grid-template-columns: 1fr !important;
+        grid-column-gap: 0 !important;
+        grid-row-gap: 30px !important;
+    }
+    .text-container {
+        order: 2;
+    }
+    .img-container {
+        order: 1;
     }
 }
