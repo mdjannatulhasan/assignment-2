@@ -10,6 +10,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 .row {
     display: grid;
@@ -17,17 +18,50 @@ body {
 }
 .row.col-6 {
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 .row.col-4 {
     grid-template-columns: repeat(3, 1fr);
 }
-
+.btn-rounded {
+    border-radius: 100px;
+    padding: 10px 24px;
+    display: inline-block;
+}
+.bg-primary {
+    background-color: #e02c6d;
+    color: #ffffff;
+}
+section {
+    padding: 40px 0;
+}
 /****************************************************\
                     Header Styles 
 \****************************************************/
+header {
+    padding-bottom: 30px;
+}
 .web-name {
     font-size: 24px;
 }
 .main-title {
     font-size: 52px;
+}
+.header-sec p {
+    max-width: 500px;
+}
+.header-sec .btn-rounded {
+    margin-top: 10px;
+}
+/****************************************************\
+                company logos Styles 
+\****************************************************/
+.company-logos .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logos img {
+    margin: 0 10px;
 }
